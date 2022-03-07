@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-image: url("images/woman.jpg");
+  background-size: cover;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to left, black, #5e0f5e);
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-between;
+}
+.flexed .writer {
+  box-shadow: 1px 0px 7px 5px #5f0749;
+  border-radius: 15px;
+  margin: 4%;
+  margin-left: 10%;
+  padding: 1% 1.5%;
+  background-image: linear-gradient(to left, #17001f, black);
+}
+.flexed .writer h1 {
+  color: #d6d1d1;
+  text-shadow: 1px 12px 21px black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 4%;
+}
+.flexed .writer .pee {
+  color: #d6d1d1;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 1%;
+}
+.flexed .writer textarea {
+  box-shadow: 3px 3px 5px 7px black;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: #262525;
+  color: #8c8c8c;
+  height: 60vh;
+  outline: 3px solid purple;
+  border-radius: 10px;
+}
+.flexed .writer .buttons {
+  outline: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+.flexed .writer .buttons .appending {
+  outline: 0;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  background: purple;
+  color: white;
+  padding: 4% 7%;
+}
+.flexed .writer .buttons .appending:hover {
+  background-image: linear-gradient(to right, #211e21, black);
+  color: white;
+}
+.flexed .writer .buttons .upload {
+  outline: 0;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  background: #008020;
+  color: white;
+  padding: 4% 7%;
+}
+.flexed .story {
+  background-image: url("bbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 5%;
+  width: 50%;
+  margin-top: -2%;
+  height: 94vh;
+}
+.flexed .story .content {
+  border-radius: 3px;
+  width: 85%;
+  padding: 4%;
+  height: 70vh;
+  color: black;
+  margin: 7% 10%;
+  background-color: transparent;
+  margin-top: 18%;
+}
+.flexed .story .buttons {
+  margin-left: 8.5%;
+}
+.flexed .story .buttons .edit {
+  outline: 0;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  background: purple;
+  color: white;
+  padding: 2% 4%;
+}
+.flexed .story .buttons .publish {
+  outline: 0;
+  margin-left: 1%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  background: #008020;
+  color: white;
+  padding: 2% 4%;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+span {
+  color: #131212;
+  opacity: 0.8;
+  line-height: 2;
+  font-size: 23px;
+  font-family: serif;
+  text-transform: capitalize;
+  border-bottom: 1px;
+}/*# sourceMappingURL=style.css.map */
